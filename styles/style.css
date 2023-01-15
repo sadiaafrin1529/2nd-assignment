@@ -56,6 +56,7 @@ ul li {
     width: 477px;
     left: 1203px;
     margin-top: 63px;
+    margin-right: 300px;
 }
 
 .banner{
@@ -432,10 +433,8 @@ color: #727272;
     height: 36px;
     filter: invert(1);
   }
-  .mobile_only {
-    display: block;
-    font-size: 24px;
-  }
+
+  
   @media screen and (max-width: 668px){
     body,.header,.main,.collection,.footer{
         width: 100%;
@@ -458,10 +457,7 @@ color: #727272;
    
         color: #3a3a3a;
       }
-      .mobile_only {
-        display: block;
-        font-size: 24px;
-      }
+      
       .banner {
         margin-top: 0;
         flex-direction: column;
